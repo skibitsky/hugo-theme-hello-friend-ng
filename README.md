@@ -38,15 +38,19 @@ The theme doesn't require any advanced configuration. Just copy the following co
 Note: There are more options to configure. Take a look into the `config.toml` in `exampleSite`.
 
 ``` toml
-baseurl = "/"
+baseurl      = "localhost"
+title        = "My Blog"
 languageCode = "en-us"
-theme = "hello-friend-ng"
+theme        = "hello-friend-ng"
 
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Subtitle for home
+  homeSubtitle = "A simple and beautiful blog"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -62,12 +66,17 @@ theme = "hello-friend-ng"
   # Default theme "light" or "dark"
   defaultTheme = "dark"
 
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
 [languages]
   [languages.en]
     title = "Hello Friend NG"
     subtitle = "A simple theme for Hugo"
     keywords = ""
-    copyright = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
@@ -160,6 +169,7 @@ Use [RealFaviconGenerator](https://realfavicongenerator.net/) to generate these 
 - [kaggle](https://simpleicons.org/?q=kaggle)
 - [keybase](https://simpleicons.org/?q=keybase)
 - [mastodon](https://simpleicons.org/?q=mastodon)
+- [medium](https://simpleicons.org/?q=medium)
 - [linkedin](https://feathericons.com/?query=linked)
 - [podcasts-apple](https://simpleicons.org/?q=podcast)
 - [podcasts-google](https://simpleicons.org/?q=podcast)
@@ -169,6 +179,8 @@ Use [RealFaviconGenerator](https://realfavicongenerator.net/) to generate these 
 - telegram
 - twitch
 - twitter
+- [xampp](https://simpleicons.org/?q=xampp)
+- [xmpp](https://simpleicons.org/?q=xmpp)
 - youtube
 
 If you need another one, just open an issue or create a pull request with your wished icon. :)
