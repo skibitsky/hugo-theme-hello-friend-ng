@@ -22,6 +22,20 @@
         <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
       </h1>
 
+      {{ with .Params.Description }}
+        <div class="post-excerpt">{{ . }}</div>
+      {{ end }}
+
+      {{ if .Params.Cover }}
+        <figure class="post-cover">
+          <img src="{{ .Params.Cover | absURL }}" alt="{{ .Title }}" />
+          
+          {{ if .Params.CoverCaption }}
+            <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
+          {{ end }}
+        </figure>
+      {{ end }}
+
       {{- if .Params.toc }}
         <hr />
         <aside id="toc">
@@ -30,10 +44,6 @@
         </aside>
         <hr />
       {{- end }}
-
-      {{ with .Params.Cover }}
-        <img src="/{{ . }}" class="post-cover" />
-      {{ end }}
 
       <div class="post-content">
         {{ .Content }}
@@ -138,6 +148,11 @@
           {{ template "_internal/disqus.html" . }}
         </div>
       {{ end }}
+    {{ end }}
+
+    {{ if .Site.Params.Commento.Url }}
+      <script defer src={{ .Site.Params.Commento.Url }}></script>
+      <div id="commento"></div>
     {{ end }}
 
   </main>
