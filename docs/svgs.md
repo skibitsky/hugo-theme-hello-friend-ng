@@ -1,13 +1,15 @@
 # Available Social Icons:
 
 - [amazon](https://simpleicons.org/?q=amazon)
+- [anilist](https://simpleicons.org/?q=anilist)
 - [box](https://simpleicons.org/?q=box)
 - [behance](https://simpleicons.org/?q=behance)
 - [bitbucket](https://simpleicons.org/?q=bitbucket)
+- case - generic briefcase icon for work based links
 - [codesandbox](https://simpleicons.org/?q=codesandbox)
 - [codechef](https://simpleicons.org/?q=codechef)
 - [codepen](https://simpleicons.org/?q=codepen)
-- [dev](https://simpleicons.org/?q=devto)
+- dev
 - [deviantart](https://simpleicons.org/?q=deviantart)
 - [discogs](https://simpleicons.org/?q=discogs)
 - [discord](https://simpleicons.org/?q=discord)
@@ -15,6 +17,7 @@
 - [dribbble](https://simpleicons.org/?q=dribbble)
 - [email](https://feathericons.com/?query=mail)
 - [facebook](https://simpleicons.org/?q=facebook)
+- [fitbit](https://simpleicons.org/?q=fitbit)
 - git
 - [gitbook](https://simpleicons.org/?q=gitbook)
 - [gitea](https://simpleicons.org/?q=gitea)
@@ -22,6 +25,7 @@
 - [gitlab](https://feathericons.com/?query=gitlab)
 - [gitter](https://simpleicons.org/icons/gitter.svg)
 - [goodreads](https://simpleicons.org/?q=goodreads)
+- [googleplay](https://simpleicons.org/?q=googleplay)
 - [googlescholar](https://simpleicons.org/?q=googlescholar)
 - [hackerone](https://simpleicons.org/?q=hackerone)
 - [hackerrank](https://simpleicons.org/?q=hackerrank)
@@ -30,6 +34,7 @@
 - [keybase](https://simpleicons.org/?q=keybase)
 - [lastfm](https://simpleicons.org/?q=lastfm)
 - [leetcode](https://simpleicons.org/?q=leetcode)
+- [letterboxd](https://simpleicons.org/?q=letterboxd)
 - [lichess](https://simpleicons.org/?q=lichess)
 - [linkedin](https://feathericons.com/?query=linked)
 - [mastodon](https://simpleicons.org/?q=mastodon)
